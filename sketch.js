@@ -12,9 +12,9 @@ function setup(){
 }
 
 function draw(){
-  background("blue");
-  r1.shapeColor = "yellow";
-  r2.shapeColor = "yellow";
+  background("yellow");
+  r1.shapeColor = "black";
+  r2.shapeColor = "black";
 
   r1.x = mouseX;
   r1.y = mouseY;
@@ -29,8 +29,8 @@ function draw(){
   }
 
   else{
-    r1.shapeColor = "yellow";
-  r2.shapeColor = "yellow";
+    r1.shapeColor = "black";
+  r2.shapeColor = "black";
 
 
   }
